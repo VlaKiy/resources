@@ -21,6 +21,7 @@ namespace Resources
         private void InitializeResources()
         {
             AddResource("Energy", 0f);
+            AddResource("Cups", 0f);
         }
 
         public void AddResource(string name, float defaultAmount)

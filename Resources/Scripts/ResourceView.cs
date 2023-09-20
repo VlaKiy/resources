@@ -20,6 +20,9 @@ namespace Resources
 
         private void Show(Resource resource)
         {
+            if (resource.Name != _resourceName)
+                return;
+
             _textMeshPro.text = resource.Amount.ToString();
         }
     }
